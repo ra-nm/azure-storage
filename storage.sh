@@ -16,7 +16,7 @@ az storage account keys list -g $ResourceGroupName -n $StorageAccountName
 # Set these environment variables so we don't need to specify them in each command
 export AZURE_STORAGE_ACCOUNT=$StorageAccountName
 #TODO: pull in json library to parse storage account key so it doesn't need to be manually set
-export AZURE_STORAGE_ACCESS_KEY="wR2+RBD1CXl4YBJVrFGOB9GV+hzvtnEYl0BMuxHd31IL2XlhLJdtA0PWGYpu+KUkFu0F4/WjALCHY1IWzspktA=="
+export AZURE_STORAGE_ACCESS_KEY="{StorageAccountKey}"
 
 
 ### Blob Example ###
